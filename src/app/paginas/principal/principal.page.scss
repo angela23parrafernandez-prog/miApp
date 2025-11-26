@@ -31,3 +31,11 @@ h1, h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+.carg {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 10px;
+}
