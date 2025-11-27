@@ -1,13 +1,23 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>vermas</ion-title>
+    <ion-title>{{ producto.titulo }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">vermas</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content >
+
+  <div class="contenedor-vermas">
+
+    <img [src]="producto.imagen" class="imagen"/>
+
+    <h1 >{{ producto.titulo }}</h1>
+
+    <h2>Precio: ${{ producto.precio }}</h2>
+
+    <p >
+      {{ producto.descripcion }}
+    </p>
+
+  </div>
+
 </ion-content>

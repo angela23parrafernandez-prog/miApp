@@ -6,132 +6,16 @@
 
 <ion-content [fullscreen]="true">
 
-<div class="carg">
+<div   class="carg" >
+  <ion-card  class="card2"  *ngFor="let p of productos" (click)="irvermas(p)" >
+    <img [src]="p.imagen" class="img" />
+    <ion-card-header>
+      <ion-card-title class="titulo">{{p.titulo}}</ion-card-title>
+      <ion-card-subtitle color="danger" class="precio">Precio:$ {{p.precio}}</ion-card-subtitle>
+     </ion-card-header>
 
-<ion-card class="card2"  (click)="irvermas()"> 
-  <ion-img src="assets/img/impresora.webp"  class="img"></ion-img>
-  <ion-card-header>
-    <ion-card-title>Impresora multifunción</ion-card-title>
-    <ion-card-subtitle color="danger">Precio: $200</ion-card-subtitle>
-  </ion-card-header>
-</ion-card>
 
-<ion-card class="card2"> 
-
-  <ion-img src="assets/img/impresora.webp"  class="img"></ion-img>
-  <ion-card-header>
-    <ion-card-title>Impresora multifunción</ion-card-title>
-    <ion-card-subtitle color="danger">Precio: $200</ion-card-subtitle>
-  </ion-card-header>
-</ion-card>
-
-<ion-card class="card2"> 
-  <ion-img src="assets/img/impresora.webp"  class="img"></ion-img>
-  <ion-card-header>
-    <ion-card-title>Impresora multifunción</ion-card-title>
-    <ion-card-subtitle color="danger">Precio: $200</ion-card-subtitle>
-  </ion-card-header>
-</ion-card>
-
-<ion-card class="card2"> 
-  <ion-img src="assets/img/impresora.webp"  class="img"></ion-img>
-  <ion-card-header>
-    <ion-card-title>Impresora multifunción</ion-card-title>
-    <ion-card-subtitle color="danger">Precio: $200</ion-card-subtitle>
-  </ion-card-header>
-</ion-card>
-
-<ion-card class="card2"> 
-  <ion-img src="assets/img/impresora.webp"  class="img"></ion-img>
-  <ion-card-header>
-    <ion-card-title>Impresora multifunción</ion-card-title>
-    <ion-card-subtitle color="danger">Precio: $200</ion-card-subtitle>
-  </ion-card-header>
-</ion-card>
-
-<ion-card class="card2"> 
-  <ion-img src="assets/img/impresora.webp"  class="img"></ion-img>
-  <ion-card-header>
-    <ion-card-title>Impresora multifunción</ion-card-title>
-    <ion-card-subtitle color="danger">Precio: $200</ion-card-subtitle>
-  </ion-card-header>
-</ion-card>
-
-<ion-card class="card2"> 
-  <ion-img src="assets/img/impresora.webp"  class="img"></ion-img>
-  <ion-card-header>
-    <ion-card-title>Impresora multifunción</ion-card-title>
-    <ion-card-subtitle color="danger">Precio: $200</ion-card-subtitle>
-  </ion-card-header>
-</ion-card>
+  </ion-card>
 
 </div>
-
-
-
-
-
-
-  <ion-card>
-  <ion-card-header>
-    <ion-card-title>Card Title</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-  </ion-card-header>
-  <ion-card-content>
-    <ion-list>
-      <ion-item>
-        <ion-thumbnail slot="start">
-          <img  src="assets/img/impresora.webp" />
-        </ion-thumbnail>
-        <ion-label>Item</ion-label>
-      </ion-item>
-
-      <ion-item>
-        <ion-thumbnail slot="start">
-         <img  src="assets/img/impresora.webp" />
-        </ion-thumbnail>
-        <ion-label>Item</ion-label>
-      </ion-item>
-
-      <ion-item>
-        <ion-thumbnail slot="start">
-          <img  src="assets/img/impresora.webp" />
-        </ion-thumbnail>
-        <ion-label>Item</ion-label>
-      </ion-item>
-
-      <ion-item lines="none">
-        <ion-thumbnail slot="start">
-         <img  src="assets/img/impresora.webp" />
-        </ion-thumbnail>
-        <ion-label>Item</ion-label>
-      </ion-item>
-    </ion-list>
-  </ion-card-content>
-</ion-card>
-
-
-
-
-
-<ion-card> 
-  <ion-img src="assets/img/impresora.webp"></ion-img>
-  <ion-text>
-    <h1>Impresora multifunción</h1>
-  </ion-text>
- <ion-text color="danger">
-    <h2>Precio: $200</h2>
-  </ion-text>
-</ion-card>
-
-
-
-
-
-
-
-
-
-
- 
 </ion-content>
