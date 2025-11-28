@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   templateUrl: './principal.page.html',
   styleUrls: ['./principal.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule,]
   ,schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class PrincipalPage implements OnInit {
