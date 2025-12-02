@@ -36,9 +36,51 @@ export class PrincipalPage implements OnInit {
           descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
           imagen:"assets/img/ricoh.webp"
         },
-
-
+        {
+          id: 4,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 5,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 6,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 7,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 8,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 9,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
    ] 
+
+    productosfiltrados = [...this.productos ];
    
    constructor(
     private router: Router
@@ -51,5 +93,21 @@ export class PrincipalPage implements OnInit {
   irvermas(producto: any){
     this.router.navigate(['/vermas'],  { queryParams:  producto });
   }
+
+
+  filtrar(event: any){
+     const texto = (event.target.value || '').toLowerCase().trim();
+
+     if (texto === '') { 
+        this.productosfiltrados = [...this.productos ];
+        return;
+     }
+     this.productosfiltrados = this.productos.filter( 
+      p => p.titulo.toLowerCase().includes(texto) ||
+       p.descripcion.toLowerCase().includes(texto) ||
+       p.precio.toString().includes(texto)
+     );
+}
+
 
 }

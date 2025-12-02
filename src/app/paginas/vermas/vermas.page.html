@@ -1,13 +1,13 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>{{ producto.titulo }}</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header-global></app-header-global>
+
+    
+
 
 <ion-content class="contenedor-vermas" [fullscreen]="true">
 <img  [src]="producto.imagen"  class="imagen"   >
 <div>
-  <h2>{{producto.nombre}}</h2>
+  <ion-title>{{ producto.titulo }}</ion-title>
+ 
   <p>{{producto.descripcion}}</p>
   <h3>Precio: {{producto.precio}}</h3>
 </div>
