@@ -1,0 +1,74 @@
+/* Sección superior tipo banner */
+.hero {
+  background: linear-gradient(135deg, #ee5056b3, #36f3e0);
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.hero-text h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Tarjetas */
+.card-info {
+  margin: 20px;
+  border-radius: 15px;
+}
+
+/* Beneficios */
+.beneficios {
+  padding: 20px;
+  text-align: center;
+}
+
+.beneficios h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item ion-icon {
+  font-size: 40px;
+  color: #4b59ff;
+  margin-bottom: 10px;
+}
+
+.item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.item p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Para pantallas grandes */
+@media (min-width: 600px) {
+  .items {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,56 @@
+.cabecera {
+  text-align: center;
+  padding: 25px;
+  background: linear-gradient(135deg, #ee5056b3, #36f3e0);
+  color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.cabecera h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.cabecera p {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* Grupo FAQ */
+.faq-group {
+  padding: 15px;
+}
+
+/* Estilo del encabezado de cada pregunta */
+.faq-header {
+  --padding-start: 12px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.faq-header:hover {
+  transform: scale(1.02);
+}
+
+/* Iconos */
+.faq-header ion-icon {
+  font-size: 24px;
+  margin-right: 12px;
+  color: #4b59ff;
+}
+
+/* Contenido interno */
+.faq-content {
+  padding: 15px;
+  font-size: 15px;
+  line-height: 1.5;
+  background: #f8f9ff;
+  border-radius: 10px;
+  color: #333;
+  margin-bottom: 15px;
+}

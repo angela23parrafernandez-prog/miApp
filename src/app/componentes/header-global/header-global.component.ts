@@ -8,7 +8,7 @@ import {IonContent, IonHeader, IonTitle, IonToolbar,IonButtons} from '@ionic/ang
   templateUrl: './header-global.component.html',
   styleUrls: ['./header-global.component.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule,IonButtons ]
+  imports: [ IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule,IonButtons ]
 })
 export class HeaderGlobalComponent  implements OnInit {
 
