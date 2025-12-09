@@ -5,7 +5,8 @@ import { IonContent, } from '@ionic/angular/standalone';
 import { Router } from '@angular/router';
 import { HeaderGlobalComponent } from 'src/app/componentes/header-global/header-global.component';
 import { FooterGlobalComponent } from 'src/app/componentes/footer-global/footer-global.component';
-
+import { MasComponent } from 'src/app/componentes/mas/mas.component';
+import { ModalController } from '@ionic/angular/standalone';
 @Component({
   selector: 'app-principal',
   templateUrl: './principal.page.html',
@@ -84,7 +85,8 @@ export class PrincipalPage implements OnInit {
     productosfiltrados = [...this.productos ];
    
    constructor(
-    private router: Router
+    private router: Router,
+    private modalCtrl: ModalController,
   ) { }
 
   ngOnInit() {
@@ -109,6 +111,21 @@ export class PrincipalPage implements OnInit {
        p.precio.toString().includes(texto)
      );
 }
+
+
+ async verimagengrande(producto: any){
+    const modal = await this.modalCtrl.create({
+           component: MasComponent, 
+           componentProps: { imagen: producto.imagen, 
+            titulo: producto.titulo },
+            cssClass: 'estilo-modal'
+    });
+    await modal.present();
+}
+
+
+
+
 
 
 }
