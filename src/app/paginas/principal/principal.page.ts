@@ -26,17 +26,17 @@ export class PrincipalPage implements OnInit {
         },
         {
           id: 2,
-          titulo: "Impresora multifunción",
-          precio:150,
-          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
-          imagen:"assets/img/impresora.webp"
+          titulo: "Disco duro",
+          precio:120,
+          descripcion:"Disco duro externo portátil de 1TB, ideal para almacenamiento adicional y copias de seguridad, con conexión USB 3.0 para transferencias rápidas.",
+          imagen:"assets/img/dis.webp"
         },
         {
           id: 3,
-          titulo: "Impresora ricoh",
+          titulo: "Laptop HP",
           precio:150,
           descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
-          imagen:"assets/img/ricoh.webp"
+          imagen:"assets/img/com2.jpg"
         },
         {
           id: 4,
@@ -47,10 +47,10 @@ export class PrincipalPage implements OnInit {
         },
         {
           id: 5,
-          titulo: "Impresora ricoh",
+          titulo: "Computadora de escritorio",
           precio:150,
           descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
-          imagen:"assets/img/ricoh.webp"
+          imagen:"assets/img/com.jpg"
         },
         {
           id: 6,
@@ -75,6 +75,90 @@ export class PrincipalPage implements OnInit {
         },
         {
           id: 9,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 11,
+          titulo: "Disco duro",
+          precio:120,
+          descripcion:"Disco duro externo portátil de 1TB, ideal para almacenamiento adicional y copias de seguridad, con conexión USB 3.0 para transferencias rápidas.",
+          imagen:"assets/img/dis.webp"
+        },
+        {
+          id: 12,
+          titulo: "Laptop HP",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/com2.jpg"
+        },
+        {
+          id: 13,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 14,
+          titulo: "Disco duro",
+          precio:120,
+          descripcion:"Disco duro externo portátil de 1TB, ideal para almacenamiento adicional y copias de seguridad, con conexión USB 3.0 para transferencias rápidas.",
+          imagen:"assets/img/dis.webp"
+        },
+        {
+          id: 15,
+          titulo: "Laptop HP",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/com2.jpg"
+        },
+        {
+          id: 16,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 17,
+          titulo: "Disco duro",
+          precio:120,
+          descripcion:"Disco duro externo portátil de 1TB, ideal para almacenamiento adicional y copias de seguridad, con conexión USB 3.0 para transferencias rápidas.",
+          imagen:"assets/img/dis.webp"
+        },
+        {
+          id: 18,
+          titulo: "Laptop HP",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/com2.jpg"
+        },
+        {
+          id: 19,
+          titulo: "Impresora ricoh",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/ricoh.webp"
+        },
+        {
+          id: 20,
+          titulo: "Disco duro",
+          precio:120,
+          descripcion:"Disco duro externo portátil de 1TB, ideal para almacenamiento adicional y copias de seguridad, con conexión USB 3.0 para transferencias rápidas.",
+          imagen:"assets/img/dis.webp"
+        },
+        {
+          id: 21,
+          titulo: "Laptop HP",
+          precio:150,
+          descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
+          imagen:"assets/img/com2.jpg"
+        },
+        {
+          id: 22,
           titulo: "Impresora ricoh",
           precio:150,
           descripcion:"Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
@@ -122,10 +206,6 @@ export class PrincipalPage implements OnInit {
     });
     await modal.present();
 }
-
-
-
-
 
 
 }
