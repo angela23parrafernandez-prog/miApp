@@ -1,16 +1,17 @@
 .footer {
   background: #f4f4f4;
-  padding: 12px 0;
+  padding: 6px 0;
   border-top: 1px solid #ddd;
 }
 
 .footer-container {
   text-align: center;
+  line-height: 1.2;
 }
 
 .social a {
-  font-size: 26px;
-  margin: 0 10px;
+  font-size: 22px;
+  margin: 0 6px;
   color: #333;
 }
 
@@ -19,13 +20,13 @@
 }
 
 .menu-links {
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 .menu-links a {
   display: inline-block;
   margin: 5px 12px;
-  font-size: 14px;
+  font-size: 12px;
   color: #333;
   text-decoration: none;
 }
@@ -36,7 +37,7 @@
 }
 
 .copy {
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: 4px;
+  font-size: 11px;
   color: #666;
 }
