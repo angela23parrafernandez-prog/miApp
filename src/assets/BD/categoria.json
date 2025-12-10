@@ -1,0 +1,26 @@
+[
+
+    {
+        "categoria":"Impresoras",
+        "subcategoria": [
+            "multifunción",
+            "Tinta continua",
+             "Láser"
+        ]
+    },
+
+     {
+        "categoria":"Computadoras",
+        "subcategoria": [
+            "mLaptops",
+            "Escritorio"
+        ]
+    },
+     {
+        "categoria":"Almacenamiento",
+        "subcategoria": [
+            "Disco duros",
+            "SSD"
+        ]
+    }
+]
