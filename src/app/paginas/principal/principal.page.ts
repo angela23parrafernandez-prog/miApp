@@ -47,6 +47,11 @@ export class PrincipalPage implements OnInit {
       = this.productos.filter(p =>p.subcategoria === nombre)
   }
 
+    mostrarTodos() {
+  this.productosfiltrados = [...this.productos];
+}
+
+
 
   cargarProductos(){
      this.http.get('assets/BD/productos.json')

@@ -36,21 +36,27 @@
     "titulo": "Computadora de escritorio",
     "precio": 150,
     "descripcion": "Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
-    "imagen": "assets/img/com.jpg"
+    "imagen": "assets/img/com.jpg",
+    "categoria": "Impresoras",
+    "subcategoria": "multifunción"
   },
   {
     "id": 6,
     "titulo": "Impresora ricoh",
     "precio": 150,
     "descripcion": "Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
-    "imagen": "assets/img/ricoh.webp"
+    "imagen": "assets/img/ricoh.webp",
+    "categoria": "Impresoras",
+    "subcategoria": "multifunción"
   },
   {
     "id": 7,
     "titulo": "Impresora ricoh",
     "precio": 150,
     "descripcion": "Impresora multifunción HP DeskJet 2755e, ideal para el hogar y la oficina, con conectividad inalámbrica y funciones de impresión, escaneo y copia.",
-    "imagen": "assets/img/ricoh.webp"
+    "imagen": "assets/img/ricoh.webp",
+    "categoria": "Impresoras",
+    "subcategoria": "multifunción"
   },
   {
     "id": 8,
